@@ -122,12 +122,12 @@ the name of the home team, `"Brooklyn Nets"`. We can call the `gameObject`
 function inside of our `homeTeamName` function and operate on the object:
 
 ```js
-function homeTeamName() {
+
+
+console.log(homeTefunction homeTeamName() {
   let object = gameObject();
   return object["home"]["teamName"];
-}
-
-console.log(homeTeamName());
+}amName());
 // logs "Brooklyn Nets"
 ```
 
